@@ -1,6 +1,5 @@
 "use client";
 import { FC } from "react";
-// import StarRating from "@/app/sharedComponents/StarRating";
 import { Heart } from "lucide-react";
 import Image from "next/image";
 
@@ -20,8 +19,7 @@ const ProductCard: FC<ProductCardProps> = ({image,title,price,oldPrice,rating,re
         <span className="line-through text-gray-400 text-sm">${oldPrice}</span>)}
       </div>
       <div className="flex items-center gap-2 mt-1">
-        {/* <StarRating rating={rating} /> */}
-        <span className="text-xs text-gray-500">({reviews})</span>
+       <span className="text-xs text-gray-500">({reviews})</span>
       </div>
     </div>
   );

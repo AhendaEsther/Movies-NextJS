@@ -16,7 +16,7 @@ const SignUpForm = () => {
   const [password, setPassword] = useState("");
   return (
     <>
-    {/* <TopBanner /> */}
+    
       <Navigation/>
       <div className="flex flex-col md:flex-row items-center md:items-start gap-40 py-12  ">
         <div className=" flex ">

@@ -1,7 +1,6 @@
 "use client";
 
 import { FC } from "react";
-// import StarRating from "../shared-components/StarRating";  
 import { Heart } from "lucide-react";
 import Image from "next/image";
 
@@ -19,7 +18,6 @@ const FlashSaleCard: FC<FlashSaleCardProps> = ({ image, title, price, oldPrice, 
         <span className="line-through text-gray-400 text-sm">${oldPrice}</span>
       </div>
       <div className="flex items-center gap-2 mt-1">
-        {/* <StarRating rating={4} /> */}
         <span className="text-1xl text-gray-500">({reviews})</span>
       </div>
     </div>
